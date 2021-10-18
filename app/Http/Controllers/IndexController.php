@@ -13,7 +13,7 @@ class IndexController extends Controller
      */
     public function index()
     {
-        //
+        //метод возвращает главную страницу
         return view ('index.index');
     }
 

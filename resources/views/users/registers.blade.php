@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
 @section('title', 'Страница с регистрацией')
-з
+
 @section('content')
 
-
+<h1>Регистрация</h1>
 @endsection
