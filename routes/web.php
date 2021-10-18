@@ -35,4 +35,4 @@ Route::get('/stoke', [StokeController::class, 'index_stoke'])->name('stokе');//
 
 Route::get('/product', [ProductController::class, 'index_product'])->name('catalog');//Товары
 
-Route::get('/contacts', [ContactsController::class, 'index_contacts'])->name('contacts');//Контакты
+Route::get('/contacts', [ContactController::class, 'index_contacts'])->name('contacts');//Контакты
