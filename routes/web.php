@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\DeliveryController;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\StokeController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -29,7 +33,7 @@ Route::get('/private/order',[UserController::class, 'orders'])->name('orders');/
 Route::get('/private/basket',[UserController::class, 'basket'])->name('basket'); // Корзина
 
 
-Route::get('/delivery)',[DeliveryController::class, 'index_delivery'])->name('delivery');//Доставка
+Route::get('/delivery',[DeliveryController::class, 'index_delivery'])->name('delivery');//Доставка
 
 Route::get('/stoke', [StokeController::class, 'index_stoke'])->name('stokе');//Акции
 

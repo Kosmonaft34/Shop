@@ -30,7 +30,7 @@ class RouteTest extends TestCase
         $response -> assertOk();
     }
 
-    public function test_delivey(){//тест на маршрут страницы доставки
+    public function test_delivery(){//тест на маршрут страницы доставки
         $response = $this->get('/delivery');
         $response -> assertOk();
     }
