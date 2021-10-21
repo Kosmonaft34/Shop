@@ -38,5 +38,6 @@ Route::get('/delivery',[DeliveryController::class, 'index_delivery'])->name('del
 Route::get('/stoke', [StokeController::class, 'index_stoke'])->name('stokе');//Акции
 
 Route::get('/product', [ProductController::class, 'index_product'])->name('catalog');//Товары
+Route::get('/product/perfume', [ProductController::class, 'perfume'])->name('perfume');//страница с парфюмом
 
 Route::get('/contacts', [ContactController::class, 'index_contacts'])->name('contacts');//Контакты

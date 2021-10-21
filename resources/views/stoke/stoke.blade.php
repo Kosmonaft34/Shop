@@ -1,1 +1,4 @@
-<h1>Акции</h1>
+@extends('layouts.main')
+@section('content')
+    <p>Акции</p>
+@endsection

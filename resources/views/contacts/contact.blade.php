@@ -1,1 +1,4 @@
-<h1>Контакты</h1>
+@extends('layouts.main')
+@section('content')
+    <p>Контакты</p>
+@endsection

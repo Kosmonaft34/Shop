@@ -10,4 +10,9 @@ class ProductController extends Controller
     public function index_product(){
         return view('product.product');
     }
+
+    //view с парфюмом
+    public function perfume(){
+        return view('product.profCosmetic.perfume.perfume');
+    }
 }

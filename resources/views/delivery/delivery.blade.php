@@ -1,1 +1,4 @@
-<h1>delivery</h1>
+@extends('layouts.main')
+@section('content')
+    <p>Доставка</p>
+@endsection

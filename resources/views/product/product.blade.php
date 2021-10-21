@@ -1,1 +1,4 @@
-<h1>Продукты</h1>
+@extends('layouts.main')
+@section('content')
+    <p>Товары</p>
+@endsection

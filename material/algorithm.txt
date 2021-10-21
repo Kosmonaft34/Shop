@@ -29,8 +29,11 @@ composer create-project laravel/laravel <название папки> установка ларавел(папка
 2.8.Контакты
 
 2.9.Мы в соцсетях
+3.Как сделать заказ
 
 3.Создаём универсальную страницу в папке resources/view
 3.1 Создаём папку layouts
 3.2 В это папке создаём файл main.blade.php
+
+https://pro-cosmetik.ru/
 
